@@ -24,7 +24,7 @@ const ReturnBook = ({ reservationId, onReturnSuccess }) => { // Added onReturnSu
     setIsProcessing(true);
     deleteReservation(reservationId, token)
       .then(result => {
-        console.log('Reservation deleted successfully:', result);
+        ('Reservation deleted successfully:', result);
         if (onReturnSuccess) {
           onReturnSuccess(); 
         }

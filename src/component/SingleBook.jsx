@@ -9,7 +9,7 @@ const SingleBook = () => {
   useEffect(() => {
     fetchBookDetails(bookId)
       .then(data => {
-        console.log("Fetched book details:", data);
+       ("Fetched book details:", data);
         if (data.book) {
           setBook(data.book);
         } else {

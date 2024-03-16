@@ -119,7 +119,7 @@ export const updateBookAvailability = (bookId, available, token) => {
     return response.json();
   })
   .then(result => {
-    console.log(result);
+    (result);
     return result;
   })
   .catch(error => {
@@ -143,7 +143,7 @@ export const deleteReservation = (reservationId, token) => {
     return response.json();
   })
   .then(result => {
-    console.log(result);
+    (result);
     return result;
   })
   .catch(error => {
@@ -167,7 +167,7 @@ export const fetchUserReservations = (token) => {
     return response.json();
   })
   .then(result => {
-    console.log(result);
+    (result);
     return result;
   })
   .catch(error => {
